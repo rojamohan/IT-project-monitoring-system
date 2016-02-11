@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.apms.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.apms.MainActivity">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.ProjectLogin">
+        </activity>
+        
+     	<activity
+            android:name="com.example.apms.TeamLeaderLogin">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.DeveloperLogin">
+        </activity>
+        
+     	<activity
+            android:name="com.example.apms.TesterLogin">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.TempAfterLogin">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.FingerScanner">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.ProjectMenu">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.ProjectAdd">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.ProjectDelete">
+        </activity>
+        
+               <activity
+            android:name="com.example.apms.ProjectModify">
+        </activity>
+        
+         <activity
+            android:name="com.example.apms.ProjectView">
+        </activity>
+        
+    
+      
+    </application>
+
+</manifest>

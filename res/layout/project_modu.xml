@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/temp"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,SpUsage,Deprecated" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="10dp"
+        android:text="MODIFY PROJECT"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="50dp"
+        android:text="ID "
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editid"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="50dp"
+        android:inputType="number"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="100dp"
+        android:text="NAME"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="100dp"
+        android:inputType="text"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="150dp"
+        android:text="CLIENT"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editClient"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:inputType="number"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editSDate"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="152dp"
+        android:layout_y="196dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="15dp" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="211dp"
+        android:text="STARTING DATE"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="258dp"
+        android:text="ENDING DATE"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editEDate"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="154dp"
+        android:layout_y="244dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="15dp" />
+
+    <requestFocus />
+
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="125dp"
+        android:layout_height="74dp"
+        android:layout_x="88dp"
+        android:layout_y="324dp"
+        android:text="UPDATE"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>

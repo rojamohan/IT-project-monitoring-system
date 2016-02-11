@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/temp"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText,SpUsage,Deprecated" >
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="119dp"
+        android:layout_height="109dp"
+        android:layout_x="30dp"
+        android:layout_y="130dp"
+        android:text="ADD"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="112dp"
+        android:layout_height="106dp"
+        android:layout_x="163dp"
+        android:layout_y="131dp"
+        android:text="VIEW"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnModify"
+        android:layout_width="115dp"
+        android:layout_height="110dp"
+        android:layout_x="35dp"
+        android:layout_y="254dp"
+        android:text="MODIFY"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="118dp"
+        android:layout_height="111dp"
+        android:layout_x="160dp"
+        android:layout_y="252dp"
+        android:text="DELETE"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="108dp"
+        android:layout_y="53dp"
+        android:text="Projects"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+</AbsoluteLayout>
